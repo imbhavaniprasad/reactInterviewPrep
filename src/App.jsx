@@ -5,6 +5,7 @@ import StarRating from "./Components/StarRating/StarRating";
 import Modal from "./Components/Modal/Modal";
 import SideNav from "./Components/SideNav/SideNav";
 import FetchHook from "./Components/FetchHook/FetchHook";
+import TodoList from "./Components/TodoList/TodoList";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <StarRating/> */}
       {/* <Modal/> */}
       {/* <SideNav/> */}
-      <FetchHook />
+      {/* <FetchHook /> */}
+      <TodoList />
     </div>
   );
 }
