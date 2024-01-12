@@ -6,6 +6,7 @@ import Modal from "./Components/Modal/Modal";
 import SideNav from "./Components/SideNav/SideNav";
 import FetchHook from "./Components/FetchHook/FetchHook";
 import TodoList from "./Components/TodoList/TodoList";
+import Slider from "./Components/Slider/Slider";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Modal/> */}
       {/* <SideNav/> */}
       {/* <FetchHook /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <Slider />
     </div>
   );
 }

@@ -1,0 +1,30 @@
+.slider{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_container{
+    position: relative;
+    display: flex;
+    width: 500px;
+    overflow: hidden;
+    border: 1px solid rgb(61, 84, 212);
+    border-radius: 10px;
+}
+.img_container img{
+   width: 100%;
+}
+.arrow{
+    position: absolute;
+    font-size: 20px;
+    top: 48%;
+    color: #ffffff;
+    cursor: pointer;
+}
+.left{
+    left: 6px;
+}
+.right{
+    right: 6px;
+}
